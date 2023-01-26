@@ -1,0 +1,48 @@
+/*El asterisco es un comodin, representa a todos los elementos.
+Hace que todos tomen ese atributo, a excepción de los que se definen luego*/
+* {
+    color: blue;
+}
+
+p, span {
+    font-family: 'Unbounded', cursive;
+    color: red; 
+}
+
+/* Asi se hace un comentario en CSS */
+
+h2 {
+    
+    border: 5px solid black;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    /*padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;*/
+
+    /* Empieza por top y en sentido de las agujas del reloj */
+    padding: 20px 15px 30px 25px;
+
+    font-weight: bold;
+    color: yellowgreen;
+
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo{
+    color: violet;
+}
+
+.estaEsMiClase {
+    color: lightblue;
+    font-weight: bold;
+}
